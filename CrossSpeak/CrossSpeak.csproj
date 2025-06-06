@@ -1,8 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <TargetFramework>net472</TargetFramework>
     <Title>Cross Speak</Title>
 	<Description>A cross platform screen reader interfacing libraray.</Description>
 	<NuspecFile>$(MSBuildProjectName).nuspec</NuspecFile>
